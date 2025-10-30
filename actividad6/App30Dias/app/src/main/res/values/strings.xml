@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">App30Dias</string>
+    <string name="app_name">30dias</string>
+    <string name="pecho">pecho</string>
+    <string name="rutina1">4 series de 12 repeticiones de press de banca</string>
+    <string name="espalda">espalda</string>
+    <string name="rutina2">4 series de 12 repeticiones de jalon al pecho</string>
+    <string name="sentadilla">sentadilla</string>
+    <string name="rutina3">4 series de 10 repeticiones de sentadilla hack</string>
+    <string name="biceps">Biceps</string>
+    <string name="rutina4">4 series de 12 repeticiones de curl de biceps</string>
+    <string name="calistenia">calistenia</string>
+    <string name="rutina5">4 series de 12 repeticiones planchas y plank</string>
+    <string name="core">core</string>
+    <string name="rutina6">4 series de 12 repeticiones de curl abominal</string>
+    <string name="descansar">descansar</string>
+    <string name="rutina7"> Dormir</string>
+    <string name="day">day %d</string>
 </resources>
