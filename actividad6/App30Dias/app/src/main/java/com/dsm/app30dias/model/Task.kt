@@ -4,8 +4,8 @@ import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 
 data class Task(
-    val num: Int,
-    @DrawableRes val imageRes: Int,
-    @StringRes val name: Int,
+    val day: Int,
+    @StringRes val title: Int,
     @StringRes val description: Int,
+    @DrawableRes val imageRes: Int
 )

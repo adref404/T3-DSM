@@ -1,18 +1,126 @@
 <resources>
-    <string name="app_name">30dias</string>
-    <string name="pecho">pecho</string>
-    <string name="rutina1">4 series de 12 repeticiones de press de banca</string>
-    <string name="espalda">espalda</string>
-    <string name="rutina2">4 series de 12 repeticiones de jalon al pecho</string>
-    <string name="sentadilla">sentadilla</string>
-    <string name="rutina3">4 series de 10 repeticiones de sentadilla hack</string>
-    <string name="biceps">Biceps</string>
-    <string name="rutina4">4 series de 12 repeticiones de curl de biceps</string>
-    <string name="calistenia">calistenia</string>
-    <string name="rutina5">4 series de 12 repeticiones planchas y plank</string>
-    <string name="core">core</string>
-    <string name="rutina6">4 series de 12 repeticiones de curl abominal</string>
-    <string name="descansar">descansar</string>
-    <string name="rutina7"> Dormir</string>
-    <string name="day">day %d</string>
+    <string name="app_name">30 Días de Almuerzos</string>
+    <string name="day_label">Día %1$d</string>
+    <string name="show_more">Mostrar más</string>
+    <string name="show_less">Mostrar menos</string>
+
+    <!-- Día 1 -->
+    <string name="lunch_day_1_title">Ensalada César con Pollo</string>
+    <string name="lunch_day_1_desc">Una deliciosa ensalada César con pechuga de pollo a la parrilla, lechuga romana fresca, crotones crujientes y queso parmesano. Perfecta para comenzar el mes con energía y nutrición balanceada.</string>
+
+    <!-- Día 2 -->
+    <string name="lunch_day_2_title">Pasta Primavera</string>
+    <string name="lunch_day_2_desc">Pasta fresca con vegetales de temporada salteados en aceite de oliva y ajo. Incluye brócoli, pimientos, zanahorias y calabacín. Un plato colorido y lleno de vitaminas.</string>
+
+    <!-- Día 3 -->
+    <string name="lunch_day_3_title">Sándwich de Atún</string>
+    <string name="lunch_day_3_desc">Sándwich clásico de atún con mayonesa, apio picado, lechuga y tomate en pan integral. Acompañado de chips de vegetales horneados y una porción de fruta fresca.</string>
+
+    <!-- Día 4 -->
+    <string name="lunch_day_4_title">Bowl Mediterráneo</string>
+    <string name="lunch_day_4_desc">Bowl nutritivo con quinoa, garbanzos asados, pepino, tomate cherry, aceitunas kalamata, queso feta y aderezo de tahini. Rico en proteínas y sabores mediterráneos.</string>
+
+    <!-- Día 5 -->
+    <string name="lunch_day_5_title">Tacos de Pescado</string>
+    <string name="lunch_day_5_desc">Tacos frescos con pescado empanizado, col morada, pico de gallo, aguacate y salsa de cilantro y lima. Sabor fresco y tropical para alegrar tu semana.</string>
+
+    <!-- Día 6 -->
+    <string name="lunch_day_6_title">Sopa de Lentejas</string>
+    <string name="lunch_day_6_desc">Sopa casera de lentejas con zanahoria, apio, tomate y especias aromáticas. Servida con pan integral tostado. Reconfortante y llena de proteína vegetal.</string>
+
+    <!-- Día 7 -->
+    <string name="lunch_day_7_title">Wrap de Pollo Teriyaki</string>
+    <string name="lunch_day_7_desc">Wrap integral relleno de pollo teriyaki, arroz integral, zanahoria rallada, pepino y salsa agridulce. Fusión perfecta de sabores asiáticos en un formato práctico.</string>
+
+    <!-- Día 8 -->
+    <string name="lunch_day_8_title">Risotto de Champiñones</string>
+    <string name="lunch_day_8_desc">Cremoso risotto italiano con champiñones variados, queso parmesano, vino blanco y hierbas frescas. Elegante y satisfactorio, perfecto para disfrutar con calma.</string>
+
+    <!-- Día 9 -->
+    <string name="lunch_day_9_title">Hamburguesa de Garbanzos</string>
+    <string name="lunch_day_9_desc">Hamburguesa vegetariana de garbanzos con especias, servida en pan brioche con aguacate, tomate, lechuga y mayonesa vegana. Deliciosa opción plant-based.</string>
+
+    <!-- Día 10 -->
+    <string name="lunch_day_10_title">Poké Bowl de Salmón</string>
+    <string name="lunch_day_10_desc">Bowl hawaiano con arroz de sushi, salmón fresco marinado en soya, edamame, alga nori, aguacate, pepino y semillas de sésamo. Fresco y lleno de omega-3.</string>
+
+    <!-- Día 11 -->
+    <string name="lunch_day_11_title">Tortilla Española</string>
+    <string name="lunch_day_11_desc">Clásica tortilla española con papas y cebolla, servida con ensalada verde mixta. Plato tradicional que nunca falla, ideal para compartir.</string>
+
+    <!-- Día 12 -->
+    <string name="lunch_day_12_title">Curry de Vegetales</string>
+    <string name="lunch_day_12_desc">Curry aromático con coliflor, papa, zanahoria y guisantes en salsa de coco y especias. Servido con arroz basmati. Cálido y reconfortante.</string>
+
+    <!-- Día 13 -->
+    <string name="lunch_day_13_title">Pizza Margarita Casera</string>
+    <string name="lunch_day_13_desc">Pizza artesanal con masa fermentada, salsa de tomate casera, mozzarella fresca y albahaca. Simple pero deliciosa, como en Italia.</string>
+
+    <!-- Día 14 -->
+    <string name="lunch_day_14_title">Pad Thai de Camarones</string>
+    <string name="lunch_day_14_desc">Fideos de arroz salteados al estilo tailandés con camarones, huevo, brotes de soja, cacahuates y salsa tamarindo. Equilibrio perfecto de dulce, salado y ácido.</string>
+
+    <!-- Día 15 -->
+    <string name="lunch_day_15_title">Ensalada Caprese</string>
+    <string name="lunch_day_15_desc">Tomate, mozzarella fresca y albahaca con aceite de oliva y vinagre balsámico. Acompañada de pan focaccia. Sencilla pero elegante.</string>
+
+    <!-- Día 16 -->
+    <string name="lunch_day_16_title">Burrito Bowl</string>
+    <string name="lunch_day_16_desc">Bowl con arroz cilantro-limón, frijoles negros, pollo o carnitas, guacamole, pico de gallo, queso y crema ácida. Todo el sabor de un burrito sin la tortilla.</string>
+
+    <!-- Día 17 -->
+    <string name="lunch_day_17_title">Ramen de Miso</string>
+    <string name="lunch_day_17_desc">Caldo de miso con fideos ramen, huevo marinado, cerdo chashu, cebollín, alga nori y brotes de bambú. Reconfortante sopa japonesa llena de sabor.</string>
+
+    <!-- Día 18 -->
+    <string name="lunch_day_18_title">Lasagna Vegetariana</string>
+    <string name="lunch_day_18_desc">Capas de pasta con espinaca, ricotta, champiñones, salsa de tomate y mozzarella gratinada. Abundante y satisfactoria.</string>
+
+    <!-- Día 19 -->
+    <string name="lunch_day_19_title">Falafel con Hummus</string>
+    <string name="lunch_day_19_desc">Falafel crujiente servido con hummus cremoso, tabulé, ensalada y pan pita. Comida callejera del Medio Oriente llena de sabor.</string>
+
+    <!-- Día 20 -->
+    <string name="lunch_day_20_title">Sushi Variado</string>
+    <string name="lunch_day_20_desc">Selección de rolls: California, Philadelphia y Spicy Tuna. Servido con wasabi, jengibre encurtido y salsa de soya. Arte culinario japonés.</string>
+
+    <!-- Día 21 -->
+    <string name="lunch_day_21_title">Quiche Lorraine</string>
+    <string name="lunch_day_21_desc">Tarta salada francesa con tocino, queso gruyere y crema en masa quebrada. Servida con ensalada. Elegancia francesa en cada bocado.</string>
+
+    <!-- Día 22 -->
+    <string name="lunch_day_22_title">Bowl de Açaí</string>
+    <string name="lunch_day_22_desc">Açaí congelado con granola, plátano, fresas, coco rallado y miel. Refrescante y energizante, perfecto para días cálidos.</string>
+
+    <!-- Día 23 -->
+    <string name="lunch_day_23_title">Paella de Mariscos</string>
+    <string name="lunch_day_23_desc">Arroz español con camarones, mejillones, calamares, azafrán y vegetales. Festivo y lleno de sabores del mar.</string>
+
+    <!-- Día 24 -->
+    <string name="lunch_day_24_title">Club Sandwich</string>
+    <string name="lunch_day_24_desc">Triple decker con pavo, tocino, lechuga, tomate y mayonesa. Servido con papas fritas. Clásico americano irresistible.</string>
+
+    <!-- Día 25 -->
+    <string name="lunch_day_25_title">Bibimbap Coreano</string>
+    <string name="lunch_day_25_desc">Bowl coreano con arroz, vegetales salteados, carne marinada, huevo frito y gochujang. Mezcla todo para una explosión de sabores.</string>
+
+    <!-- Día 26 -->
+    <string name="lunch_day_26_title">Cazuela de Pollo</string>
+    <string name="lunch_day_26_desc">Pollo estofado con papas, zanahorias, arvejas y hierbas en salsa cremosa. Comfort food perfecto para días fríos.</string>
+
+    <!-- Día 27 -->
+    <string name="lunch_day_27_title">Bánh Mì Vietnamita</string>
+    <string name="lunch_day_27_desc">Baguette crujiente con cerdo marinado, vegetales encurtidos, cilantro, jalapeño y mayonesa. Fusión francesa-vietnamita increíble.</string>
+
+    <!-- Día 28 -->
+    <string name="lunch_day_28_title">Gnocchi al Pesto</string>
+    <string name="lunch_day_28_desc">Gnocchi de papa hechos a mano con pesto de albahaca fresca, piñones y parmesano. Italia en su máxima expresión.</string>
+
+    <!-- Día 29 -->
+    <string name="lunch_day_29_title">Shakshuka</string>
+    <string name="lunch_day_29_desc">Huevos pochados en salsa de tomate con pimientos, cebolla y especias del norte de África. Servido con pan pita. Colorido y reconfortante.</string>
+
+    <!-- Día 30 -->
+    <string name="lunch_day_30_title">Ceviche Peruano</string>
+    <string name="lunch_day_30_desc">Pescado fresco marinado en jugo de limón con cebolla morada, ají, cilantro y camote. Servido con choclo y cancha. Final perfecto para tu mes de almuerzos.</string>
 </resources>
